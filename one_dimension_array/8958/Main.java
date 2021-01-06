@@ -18,17 +18,9 @@ public class Main {
 			for (int j = 0; j < result.length(); j++) {
 				if(result.charAt(j) == 'X') {
 					totalScore += 0;
+					score = 1;
 				} else {
-					if(j >= 1) {
-						char charAtPos = result.charAt(j);
-						char charAtPrevPos = result.charAt(j-1);
-						if(charAtPos == charAtPrevPos) {
-							score++;
-						} else {
-							score = 1;
-						}
-					}
-					totalScore += score;
+					totalScore += score++;
 				}
 			}
 			scoreArr[i] = totalScore;
