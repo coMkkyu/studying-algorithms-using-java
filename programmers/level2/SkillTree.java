@@ -40,7 +40,8 @@ public class SkillTree {
             }
             
             // 선행 스킬들만 skill_trees[i]에 남아있는 상태
-            // C, CB, CBD인 경우에만 0 반환
+            // C, CB, CBD인 경우 0 반환
+            // 선행 스킬이 아닌 스킬들을 구성된 경우 빈문자열이라 시작위치인 0 반환
             // 나머지 경우 -1 반환
             if(skill.indexOf(skill_trees[i]) == 0) {
                 answer++;
