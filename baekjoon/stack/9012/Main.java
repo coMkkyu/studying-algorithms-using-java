@@ -1,5 +1,13 @@
 package _9012;
 
+/**
+ * @author COMKKYU
+ * @date 2021. 4. 5
+ * 
+ * 스택 - 괄호
+ * https://www.acmicpc.net/problem/9012
+ * 
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
